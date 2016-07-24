@@ -35,8 +35,10 @@ At least one 'manager'/'problem-solver', can be part-timer. Should take care of
 + setting up and maintaining calendars / actual schedules with appointed coaches
 + setting up and maintaining progress tracking pages
 
-At least 2 core members, familiar with technology. At least one of two should be self-identifying as middle/senior.
+At least 2 core members, familiar with technology.
+At least one of two should be self-identifying as middle/senior.
 Why at least 2 core members? It's too much to handle for single person, and having 2 members reduces the risk of coach missing our the lecture due to personal/work related unexpected involvement.
+
 Along the way, there might be (and should be) guest speakers. Guest speakers are great as inviting them reduces the pressure from core team, students will learn about other people / usecases in the community, and guest speakers usually might have more relevant experience regarding topic discussed. Be aware, that unlike core members, guest speakers tend to be less reliable, as they are less involved and occasionally might forget about lecture they agreed to teach, refuse to come, etc. This is the hard part, as core member should be able to either jump in and cover the topic nonetheless or work around program and switch topic to the one scheduled for later.
 
 ### Shared vision
@@ -56,6 +58,7 @@ Few possible recommendations:
 + workshops should be optional, i.e. skipping workshop shouldn't harm student's progressing the course further (as this usually takes time on weekend and people tend to have real life, work and weekends never will work for everyone). Instead, think of this time as an opportunity to do something fun, hack on something small, built functional prototype/app, play with something niche, i.e.: if mission states we want in the end to have people familiar with ruby and rails, it might be a fun thing to hack on ruby internals; if mission states we want in the end to have people familiar with core js and have some idea of high-level js frameworks, it might be a fun thing to play with Three.js/d3/canvases/phaser/tessel, etc. To sum up: bring some fun to the course and talk about related, but not core things
 + think who might be a good suit for guest speaker for the topic, other kottans, gitter communities, speakers at local meetups/conferences might be of help to determine this. Think about who would be a backup coach, just in case guest speaker won't be able to make it. There were cases when guest speaker was presenting from another city / abroad, using google hangouts. Keep in mind, this is less effective.
 + plan for intro and outro sessions.
++ given there are two sessions per week, homework after first one might be 'lighter' and be less time consuming (maybe, read some docs/articles/books or view videos etc.), and bigger homework should be assigned for weekend break
 
 After that you will need to:
   1. Create final list of topics
