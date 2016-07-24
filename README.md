@@ -106,7 +106,7 @@ Be aware that students tend to drop out the course. Drop rate might vary per cou
 
 ## Description of actual processes
 
-*Quick tip on managing files: create google drive folder for course and share it with everyone involved. Store artifacts there *
+>_Quick tip on managing files: create google drive folder for course and share it with everyone involved. Store artifacts there_
 
 ### Getting registrations
 
