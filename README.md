@@ -96,5 +96,31 @@ Venue requirements:
 + optionally: air conditiong
 
 ### Students
+Group might vary in size, given the actual course mission, venue, speakers level etc. Given we are usually targeting offline format, it's usually most productive to have 15-25 students.
+
+Usually, group would include motivated and curious future kottans or alumni kottans that are thirsting for new skills. To achieve this, prior to course, there's
+  1. a test assignment being sent out to everyone who wants to attend course
+  2. an in-person interview to assess some social skills, motivation and level of applicant
+
+Be aware that students tend to drop out the course. Drop rate might vary per course, based on its length, complexity, engagement and may vary from 10-15% to 66-80% (just a ration of students that are not making it till the end). Apart from personal reasons students might be dropping out, there's also a possibility that coaches can decide to exclude someone from the course in case of not keeping up with homeworks for long time (usually, baseline is you can have at most 3 home assignments not done until coach would interfere) or other reasons (rude behaviour?).
 
 ## Description of actual processes
+
+** Quick tip on managing files: create google drive folder for course and share it with everyone involved. Store artifacts there **
+
+### Getting registrations
+
+1. Get an access to [application monitor](http://kottans.github.io/application-monitor).
+2. Set corresponding filters, matching subset of students you are interested in. Be aware it's somewhat laggy and slow.
+![](images/application-monitor.png)
+3. Click export. Supposedly, if you exported student for some course, you would like to check that language checkbox & click 'Remove', so that person would not show up for the same language filter in the future (we want to remove people from the list so that they will get application email only once. If they want in next year, they should register again).
+![](images/application-monitor-export.png)
+4. You will get spreadsheet ![](images/applications-spreadsheet.png) that can be further used. Usually, you would do several exports (as people tend to start registering when course is announced) and merge those together.
+
+### Sending out test assignment
+### Setting up interview
+### Interview feedback
+### Setting up courses
+### Running the course / workshops
+### Tracking progress
+### Providing feedback
