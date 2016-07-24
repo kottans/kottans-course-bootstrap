@@ -139,12 +139,13 @@ You will also need a template for email. Sample email from a few years ago can [
 ### Setting up interview
 ### Interview feedback
 ### Setting up courses
+### Homework tracking / check / feedback
 ### Running the course / workshops
 ### Tracking progress
-### Providing feedback
+### Gathering course feedback
 Getting feedback is gennerally a good idea.
 In order to get *relevant* feedback from students it is apropriate to hand out surveys e.g through Google Forms (Survey example [here](https://docs.google.com/forms/d/e/1FAIpQLSeYJyYhET-JXTBznzmsDleUg9HFMy-nnzzVaHGu0OlL9oQsSg/viewform))
-after each lecture\workshop. 
+after each lecture\workshop.
 ```
 Survey sample for each lecture:
 - Сhoose lecture (dropdown)
