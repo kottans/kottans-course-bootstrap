@@ -89,7 +89,7 @@ Other that getting necessary info via word of mouth, you can try using [https://
 Venue requirements:
 + enough space for all students and coaches
 + projector / big screen to show presentation / live coding (although could bring your own projector, etc.)
-+ internet connection (although could use 3g modems, cellphone tethering etc.)
++ stable internet connection (although backup option could be using 3g modems, cellphone tethering etc.)
 + wc / water in accessible proximity, optionally cookies/snacks/food
 + being free for the time of the course
 + optionally: microphone
