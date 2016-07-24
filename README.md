@@ -108,6 +108,13 @@ Be aware that students tend to drop out the course. Drop rate might vary per cou
 
 >_Quick tip on managing files: create google drive folder for course and share it with everyone involved. Store artifacts there_
 
+### Announcing course
+
+Usually, you would want people to know there's a course coming.
+You might want to
+1. Do a post on dou/fb. Like [this](https://dou.ua/forums/topic/14054/), [this](https://dou.ua/forums/topic/8181/) or [this](http://ain.ua/2016/02/23/634216) etc.
+2. Tweet and get retweet / post from [@kottans_org](twitter.com/kottans_org) account.
+
 ### Getting registrations
 
 People are applying for the course(s) through [our site](http://kottans.org/#contact).
@@ -119,7 +126,15 @@ People are applying for the course(s) through [our site](http://kottans.org/#con
 ![](images/application-monitor-export.png)
 4. You will get spreadsheet ![](images/applications-spreadsheet.png) that can be further used. Usually, you would do several exports (as people tend to start registering when course is announced) and merge those together.
 
+There's also possibility you would be creating a course that we never had before and thus you might need to modify [application monitor](https://github.com/kottans/application-monitor) to support corresponding columns / filtering / export.
+
+> _Note: we previously also had 'beta'-course, that wasn't available for wide audience but was more of 'by kottans for kottans'. In that case there's a different flow for getting registrations/test task/interviews._
+
 ### Sending out test assignment
+
+You will need to have test assignment text ready.
+Sample test assignments from JS course few years ago: [Contact Book](https://docs.google.com/document/d/1a0q0TQDEShK_3xzUEeUWe4Vuipc4haMXzZyIDTDslvk/edit?usp=sharing), [Gaussian solver](https://gist.github.com/programulya/659481e897de02408d57). Quantity and complexity of tasks depends solely on quantity of participants and mission. Be sure to agree in the team on general criteria used to measure completeness/quality of solution.
+
 ### Setting up interview
 ### Interview feedback
 ### Setting up courses
