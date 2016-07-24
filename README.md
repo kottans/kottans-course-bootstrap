@@ -194,12 +194,12 @@ Happy emails would be about date and time of first lesson, place, prerequisites.
 ### Running the course / workshops
 ### Tracking progress
 ### Gathering course feedback
-Getting feedback is gennerally a good idea.
-In order to get *relevant* feedback from students it is apropriate to hand out surveys e.g through Google Forms (Survey example [here](https://docs.google.com/forms/d/e/1FAIpQLSeYJyYhET-JXTBznzmsDleUg9HFMy-nnzzVaHGu0OlL9oQsSg/viewform))
+Getting feedback is generally a good idea.
+In order to get *relevant* feedback from students it is appropriate to hand out surveys e.g through Google Forms (Survey example [here](https://docs.google.com/forms/d/e/1FAIpQLSeYJyYhET-JXTBznzmsDleUg9HFMy-nnzzVaHGu0OlL9oQsSg/viewform))
 after each lecture\workshop.
 ```
 Survey sample for each lecture:
-- Сhoose lecture (dropdown)
+- Choose lecture (dropdown)
 - How much new info did you find through lecture
 - Please rate the speaker
 - What did you like about speaker's talk?
@@ -214,11 +214,11 @@ You can get somehow relevant rating of lecture after subtracting 20% of top-high
 At the end of the course the final survey is a must.
 ```
 - What lectures were good?
-- What lectures were not so goood?
+- What lectures were not so good?
 - How did course meet their expectations?
 - What would the student change in course?
 ```
-If course team is not yet burried in feedback it would be nice to have a pre-course survey to gather student's **expectations and background**.
+If course team is not yet buried in feedback it would be nice to have a pre-course survey to gather student's **expectations and background**.
 
 ## Useful tools
 TODO: fill out
