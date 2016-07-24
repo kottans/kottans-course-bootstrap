@@ -85,7 +85,7 @@ After that you will need to:
 
 ### Venue
 Usually, a friendly company would be hosting our initiative's course. Sometimes we know the people who know the people on the inside, sometimes our fellow kottans are owning/working for such company, sometimes you have to go and ask.
-Other that getting necessary info via word of mouth, you can try using [https://dou.ua](https://dou.ua) to find relevant information (might be looking for topics like [this](https://dou.ua/lenta/articles/gde-provesti-meropriyatie/), [this](https://dou.ua/lenta/articles/welcome-to-companies-4/) or [this](https://dou.ua/lenta/articles/welcome-to-kyiv-companies/)).
+Other that getting necessary info via word of mouth, you can try using local development communities to find relevant information (might be looking for topics like [this](https://dou.ua/lenta/articles/gde-provesti-meropriyatie/), [this](https://dou.ua/lenta/articles/welcome-to-companies-4/) or [this](https://dou.ua/lenta/articles/welcome-to-kyiv-companies/)).
 Venue requirements:
 + enough space for all students and coaches
 + projector / big screen to show presentation / live coding (although could bring your own projector, etc.)
@@ -112,7 +112,7 @@ Be aware that students tend to drop out the course. Drop rate might vary per cou
 
 Usually, you would want people to know there's a course coming.
 You might want to
-1. Do a post on dou/fb. Like [this](https://dou.ua/forums/topic/14054/), [this](https://dou.ua/forums/topic/8181/) or [this](http://ain.ua/2016/02/23/634216) etc.
+1. Do a post on facebook and contact your local communities. For example, in Ukraine it may be [dou](https://dou.ua). Like [this](https://dou.ua/forums/topic/14054/), [this](https://dou.ua/forums/topic/8181/) or [this](http://ain.ua/2016/02/23/634216) etc.
 2. Tweet and get retweet / post from [@kottans_org](twitter.com/kottans_org) account.
 
 ### Getting registrations
