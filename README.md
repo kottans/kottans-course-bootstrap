@@ -135,6 +135,9 @@ There's also a possibility you would be creating a course that we never had befo
 You will need to have test assignment text ready.
 Sample test assignments from JS course few years ago: [Contact Book](https://docs.google.com/document/d/1a0q0TQDEShK_3xzUEeUWe4Vuipc4haMXzZyIDTDslvk/edit?usp=sharing), [Gaussian solver](https://gist.github.com/programulya/659481e897de02408d57). Quantity and complexity of tasks depend solely on the quantity of participants and mission. Be sure to agree in the team on general criteria used to measure completeness/quality of the solution.
 You will also need a template for email. Sample email from a few years ago can [be found here](https://docs.google.com/document/d/1NdzuedOws88hTeMejvFjnLY0E6vIXGeEcmjzkPLNoME/edit?usp=sharing).
+Set up the deadline for handing in test assignments (usually, one month from the day of sending out test assignments) and the form of completed test assignment you expect to receive (for code that would be a github repo with proper README to start and run the project). Think about adding bonus points for deployed app (heroku / etc. for server apps or github pages for static web apps).
+
+### Checking test assignments and providing feedback
 
 ### Setting up interview
 ### Interview feedback
