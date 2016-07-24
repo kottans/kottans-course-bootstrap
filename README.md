@@ -136,11 +136,59 @@ You will need to have test assignment text ready.
 Sample test assignments from JS course few years ago: [Contact Book](https://docs.google.com/document/d/1a0q0TQDEShK_3xzUEeUWe4Vuipc4haMXzZyIDTDslvk/edit?usp=sharing), [Gaussian solver](https://gist.github.com/programulya/659481e897de02408d57). Quantity and complexity of tasks depend solely on the quantity of participants and mission. Be sure to agree in the team on general criteria used to measure completeness/quality of the solution.
 You will also need a template for email. Sample email from a few years ago can [be found here](https://docs.google.com/document/d/1NdzuedOws88hTeMejvFjnLY0E6vIXGeEcmjzkPLNoME/edit?usp=sharing).
 Set up the deadline for handing in test assignments (usually, one month from the day of sending out test assignments) and the form of completed test assignment you expect to receive (for code that would be a github repo with proper README to start and run the project). Think about adding bonus points for deployed app (heroku / etc. for server apps or github pages for static web apps).
+TODO: add section on google scripts for doing mass-email
+TODO: add note about mailchimp
 
 ### Checking test assignments and providing feedback
 
+Store references to applicant, his/her email (possibly skype/gitter), and test assignment. Google spreadsheet might work for this, as you will need to add comments and mark items as checked/rejected. Comments can be send right away using email/skype/gitter. Indicate that feedback was sent for other coaches to be aware.
+Notes here:
++ be nice, provide constructive feedback. Follow best code review practices
++ be aware that person that did the assignment might never written code before – be forgiving about design solutions, code constructs, etc.
++ hunt down logical fallacies, bad-bad practices, inconsistencies (mixing tab and spaces would usually mean person copypasted code, having direct DOM interaction in one place and jquery in other part, etc).
++ keep in mind that broken functionality is worse than ugly code
++ check for plagiarism. Review commit history, do a quick google search
++ note whether there are some small lovely details (those are bonus points!) that might indicate person's determination to get on board.
+
+Send feedback out. Reviewing progress after might get you a better understanding of person's willing to get to the course, ability to comprehend feedback, etc.
+
+After deadline passing you will need to short-list applications based on your team's idea of the mission and level of applicants. Sometimes you might cross out someone because s/he's too good or because s/he's too bad.
+
+> Note: how long should be the _short_ list? Depends on amount of applications and how many people will take part in interviewing process. Our guess would be it takes 7-12 minutes to talk to one person. It means you will be able to talk to ~6 people an hour. Historically, interviews would be spread across multiple days and totaling in around 8-10 hours, which means you can have ~50 people there if you are doing it in single-thread.
+
 ### Setting up interview
-### Interview feedback
+
+To get an interview, you will need a __venue__. Sometimes, main venue might work, as sponsoring company will welcome you to occupy one of their meeting rooms. Sometimes, you have to work it out on your own. Local co-working might provide discounts / free of charge access for trainers doing interview as interviewee will have to pay for their stay in space.
+You will need to set __day and time__. There's a possibility to have interviews spread across multiple working day evenings or be on weekends only, up to you.
+You will need to set up some sort of __preliminary schedule__. Assuming 5-6 people an hour, send out invites for specific hour of the day (so, first 5 people will get invite for 10:00, following 5 - 11:00, and so on). You can try fine-grain it, but usually, planned schedules tend to get off rail really quickly.
+You will need to inform students. You might share the spreadsheet and let people try to figure all the issues out themselves (switch with someone else, etc), or just send the invite directly using email and deal with outstanding cases yourself.
+Note, there will be someone, who won't be able to attend in person. Consider doing an interview using hangouts/skype either before or after all other interview session, but try not to have too much time between those so your memories would be fresh.
+
+### Interview && interview feedback
+
+Be sure to have enough water in close proximity and more than one person doing the interview. It will let you take turns in interviewing (and you will be talking a lot, and it's exhausting) and have multiple opinions for a candidate that can be somehow averaged afterwards.
+During interview tell about course program, ask person
+
+1. What's his/her current job/study place? Role, responsibilities, etc.
+2. What's his/her motivation to attend Kottans course?
+3. What's his/her motivation to chose this specific technology? Has s/he tried studying by themselves? What were the obstacles, previous studying experience, etc.
+4. What was the hard / easy part about test assignment? Why was it done the way it was done? Discuss technical side of solution, ask about work done after feedback provided.
+5. What person expects to get after passing the course?
+6. What person wants to contribute to our community?
+7. Given this and this schedule, will person be able to attend course, do all the homework assignments, etc.? Let them tell you how that will fit into their everyday routine.
+> Note: you might be talking to a person and realize they are too skilled to be studying. You can suggest person joining the coach team, and attending all the lectures and helping out with lectures on their own.
+
+Tell people when the results of interview would be out (keep in mind those people interviewing remotely). Be welcoming and let them know your possible plans for other courses / events, gift them a kottan's sticker, etc. These people spent their time and completed your test assignment, they deserve some 🐱♥️.
+
+You are interested in people motivation/determination, openness, willing to contribute back, time management skills. Try summing all this into single digit and put it next to candidate name in spreadsheet. Have other interviewers do that exercise.
+
+After going through interview process a challenge appears – you need to shortlist a shortlist. There are always obvious outstanders – be it one way or another.
+One possible way would be to average the scores for each person, sort in descending order and drawing a line.
+
+Send out two packs of emails: the happy ones and sad ones.
+Sad one should state that people didn't make it to the group, but should keep in touch. Possibly, share list of resources that will be useful for further self-education.
+Happy emails would be about date and time of first lesson, place, prerequisites.
+
 ### Setting up courses
 ### Homework tracking / check / feedback
 ### Running the course / workshops
@@ -171,3 +219,6 @@ At the end of the course the final survey is a must.
 - What would the student change in course?
 ```
 If course team is not yet burried in feedback it would be nice to have a pre-course survey to gather student's **expectations and background**.
+
+## Useful tools
+TODO: fill out
