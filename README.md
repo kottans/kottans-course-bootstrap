@@ -106,9 +106,11 @@ Be aware that students tend to drop out the course. Drop rate might vary per cou
 
 ## Description of actual processes
 
-** Quick tip on managing files: create google drive folder for course and share it with everyone involved. Store artifacts there **
+*Quick tip on managing files: create google drive folder for course and share it with everyone involved. Store artifacts there *
 
 ### Getting registrations
+
+People are applying for the course(s) through [our site](http://kottans.org/#contact).
 
 1. Get an access to [application monitor](http://kottans.github.io/application-monitor).
 2. Set corresponding filters, matching subset of students you are interested in. Be aware it's somewhat laggy and slow.
