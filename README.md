@@ -142,3 +142,28 @@ You will also need a template for email. Sample email from a few years ago can [
 ### Running the course / workshops
 ### Tracking progress
 ### Providing feedback
+Getting feedback is gennerally a good idea.
+In order to get *relevant* feedback from students it is apropriate to hand out surveys e.g through Google Forms (Survey example [here](https://docs.google.com/forms/d/e/1FAIpQLSeYJyYhET-JXTBznzmsDleUg9HFMy-nnzzVaHGu0OlL9oQsSg/viewform))
+after each lecture\workshop. 
+```
+Survey sample for each lecture:
+- Сhoose lecture (dropdown)
+- How much new info did you find through lecture
+- Please rate the speaker
+- What did you like about speaker's talk?
+- What would you change in speaker's talk?
+- Please rate the lecture's topic
+- What did you like about lecture's topic?
+- What would you change in lecture's material?
+- Would you likely to dig deeper into topic?
+- How likely will you practice the knowledge you gained from lecture?
+```
+You can get somehow relevant rating of lecture after subtracting 20% of top-high and bottom-low ratings.
+At the end of the course the final survey is a must.
+```
+- What lectures were good?
+- What lectures were not so goood?
+- How did course meet their expectations?
+- What would the student change in course?
+```
+If course team is not yet burried in feedback it would be nice to have a pre-course survey to gather student's **expectations and background**.
