@@ -7,8 +7,8 @@ Possibly, you landed here from somewhere in the web or one of the fellow kottans
 This repo is intended to provide high-level frameworkish guide of creating and running a course, supposedly, related to kottans.
 'So anyone can run a kottans course?' – one can ask. Answer is yes*
 `*` - given you follow some principals like:
-1. being nice
-2. not taking money for course and thus using kottans™ name for making profit.
+  1. being nice
+  2. not taking money for course and thus using kottans™ name for making profit.
 
 I foresee rule #2 having some sort of exceptions which should be agreed upon by most kottans, but #1 is a must.
 
@@ -61,19 +61,19 @@ After that you will need to:
   1. Create final list of topics
   2. Break up topics and workshops by week with calendar timeline
   3. Put down high-level contents of each session. Sample breakup for js course
-```
-Topic: HTML
-+ meta tags, semantics, document outline, forms, input elements, tables)
-+ Markup languages
-+ Before HTML5: history of HTML
-+ HTML5: semantic web
-+ Beyond HTML5
-+ [PostHTML]
-Topic: CSS	#1
-+ CSS 2.1 (margin collapse, box model, inline vs block, floats/clears)
-Topic: CSS	#2
-+ CSS 3 (flexboxes, transitions/animations, mention box layouts, grids…)
-```
+  ```
+  Topic: HTML
+  + meta tags, semantics, document outline, forms, input elements, tables)
+  + Markup languages
+  + Before HTML5: history of HTML
+  + HTML5: semantic web
+  + Beyond HTML5
+  + [PostHTML]
+  Topic: CSS	#1
+  + CSS 2.1 (margin collapse, box model, inline vs block, floats/clears)
+  Topic: CSS	#2
+  + CSS 3 (flexboxes, transitions/animations, mention box layouts, grids…)
+  ```
   4. Assign primary and backup coach
   5. Discuss fallback strategy in case someone is sick / not showing up / etc. (Identify, which topics can be moved around, what can be skipped and revisited later in other topics, etc)
   6. Get ready with some materials for core topics for sure (usually, that would be [slides](http://kottans.org/#slides)). You will want to have those ready 2 weeks in advance before the actual lecture for everyone to review/provide feedback.
