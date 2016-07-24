@@ -134,6 +134,7 @@ There's also possibility you would be creating a course that we never had before
 
 You will need to have test assignment text ready.
 Sample test assignments from JS course few years ago: [Contact Book](https://docs.google.com/document/d/1a0q0TQDEShK_3xzUEeUWe4Vuipc4haMXzZyIDTDslvk/edit?usp=sharing), [Gaussian solver](https://gist.github.com/programulya/659481e897de02408d57). Quantity and complexity of tasks depends solely on quantity of participants and mission. Be sure to agree in the team on general criteria used to measure completeness/quality of solution.
+You will also need a template for email. Sample email from few years ago can [be found here](https://docs.google.com/document/d/1NdzuedOws88hTeMejvFjnLY0E6vIXGeEcmjzkPLNoME/edit?usp=sharing).
 
 ### Setting up interview
 ### Interview feedback
