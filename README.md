@@ -12,6 +12,29 @@ This repo is intended to provide a high-level frameworkish guide of creating and
 
 I foresee rule #2 having some sort of exceptions which should be agreed upon by most kottans, but #1 is a must.
 
+### Contents
+
++ [Setting your expectations for results and time involvement](https://github.com/sudodoki/kottans-course-bootstrap#setting-your-expectations-for-results-and-time-involvement)
++ [All the things you need to run a course](https://github.com/sudodoki/kottans-course-bootstrap#all-the-things-you-need-to-run-a-course)
+  + [Team](https://github.com/sudodoki/kottans-course-bootstrap#team)
+  + [Shared vision](https://github.com/sudodoki/kottans-course-bootstrap#shared-vision)
+  + [Program](https://github.com/sudodoki/kottans-course-bootstrap#program)
+  + [Venue](https://github.com/sudodoki/kottans-course-bootstrap#venue)
+  + [Students](https://github.com/sudodoki/kottans-course-bootstrap#students)
++ [Description of actual processes](https://github.com/sudodoki/kottans-course-bootstrap#description-of-actual-processes)
+  + [Announcing course](https://github.com/sudodoki/kottans-course-bootstrap#announcing-course)
+  + [Getting registrations](https://github.com/sudodoki/kottans-course-bootstrap#getting-registrations)
+  + [Sending out test assignment](https://github.com/sudodoki/kottans-course-bootstrap#sending-out-test-assignment)
+  + [Checking test assignments and providing feedback](https://github.com/sudodoki/kottans-course-bootstrap#checking-test-assignments-and-providing-feedback)
+  + [Setting up interview](https://github.com/sudodoki/kottans-course-bootstrap#setting-up-interview)
+  + [Interview && interview feedback](https://github.com/sudodoki/kottans-course-bootstrap#interview--interview-feedback)
+  + [Setting up courses](https://github.com/sudodoki/kottans-course-bootstrap#setting-up-courses)
+  + [Homework tracking / check / feedback](https://github.com/sudodoki/kottans-course-bootstrap#homework-tracking--check--feedback)
+  + [Running the course / workshops](https://github.com/sudodoki/kottans-course-bootstrap#running-the-course--workshops)
+  + [Tracking progress](https://github.com/sudodoki/kottans-course-bootstrap#tracking-progress)
+  + [Gathering course feedback](https://github.com/sudodoki/kottans-course-bootstrap#gathering-course-feedback)
++ [Useful tools](https://github.com/sudodoki/kottans-course-bootstrap#useful-tools)
+  
 ## Setting your expectations for results and time involvement
 
 Creating a course takes time, energy, cognitive resources and, possibly, money. You won't get instantly-famous, you won't become an IT rockstar, you won't become women/men magnet. But I promise you would meet some great people, learn something new along the way, be it things about people nature, the technology you love, productivity, community.
