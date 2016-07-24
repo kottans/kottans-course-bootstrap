@@ -34,6 +34,7 @@ At least one 'manager'/'problem-solver', can be part-timer. Should take care of
 + venue sponsor related question
 + setting up and maintaining calendars / actual schedules with appointed coaches
 + setting up and maintaining progress tracking pages
+
 At least 2 core members, familiar with technology. At least one of two should be self-identifying as middle/senior.
 Why at least 2 core members? It's too much to handle for single person, and having 2 members reduces the risk of coach missing our the lecture due to personal/work related unexpected involvement.
 Along the way, there might be (and should be) guest speakers. Guest speakers are great as inviting them reduces the pressure from core team, students will learn about other people / usecases in the community, and guest speakers usually might have more relevant experience regarding topic discussed. Be aware, that unlike core members, guest speakers tend to be less reliable, as they are less involved and occasionally might forget about lecture they agreed to teach, refuse to come, etc. This is the hard part, as core member should be able to either jump in and cover the topic nonetheless or work around program and switch topic to the one scheduled for later.
@@ -57,9 +58,9 @@ Few possible recommendations:
 + plan for intro and outro sessions.
 
 After that you will need to:
-1. Create final list of topics
-2. Break up topics and workshops by week with calendar timeline
-3. Put down high-level contents of each session. Sample breakup for js course
+  1. Create final list of topics
+  2. Break up topics and workshops by week with calendar timeline
+  3. Put down high-level contents of each session. Sample breakup for js course
 ```
 Topic: HTML
 + meta tags, semantics, document outline, forms, input elements, tables)
@@ -73,9 +74,9 @@ Topic: CSS	#1
 Topic: CSS	#2
 + CSS 3 (flexboxes, transitions/animations, mention box layouts, grids…)
 ```
-4. Assign primary and backup coach
-5. Discuss fallback strategy in case someone is sick / not showing up / etc. (Identify, which topics can be moved around, what can be skipped and revisited later in other topics, etc)
-6. Get ready with some materials for core topics for sure (usually, that would be [slides](http://kottans.org/#slides)). You will want to have those ready 2 weeks in advance before the actual lecture for everyone to review/provide feedback.
+  4. Assign primary and backup coach
+  5. Discuss fallback strategy in case someone is sick / not showing up / etc. (Identify, which topics can be moved around, what can be skipped and revisited later in other topics, etc)
+  6. Get ready with some materials for core topics for sure (usually, that would be [slides](http://kottans.org/#slides)). You will want to have those ready 2 weeks in advance before the actual lecture for everyone to review/provide feedback.
 
 ### Venue
 Usually, a friendly company would be hosting our initiative's course. Sometimes we know the people who know the people on the inside, sometimes our fellow kottans are owning/working for such company, sometimes you have to go and ask.
