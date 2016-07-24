@@ -36,7 +36,7 @@ At least one 'manager'/'problem-solver', can be part-timer. Should take care of
 + setting up and maintaining progress tracking pages
 
 At least 2 core members, familiar with technology.
-At least one of two should be self-identifying as middle/senior.
+Both should be self-identifying as middle/senior on the given topic.
 Why at least 2 core members? It's too much to handle for single person, and having 2 members reduces the risk of coach missing our the lecture due to personal/work related unexpected involvement.
 
 Along the way, there might be (and should be) guest speakers. Guest speakers are great as inviting them reduces the pressure from core team, students will learn about other people / usecases in the community, and guest speakers usually might have more relevant experience regarding topic discussed. Be aware, that unlike core members, guest speakers tend to be less reliable, as they are less involved and occasionally might forget about lecture they agreed to teach, refuse to come, etc. This is the hard part, as core member should be able to either jump in and cover the topic nonetheless or work around program and switch topic to the one scheduled for later.
