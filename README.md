@@ -159,8 +159,81 @@ You will need to have test assignment text ready.
 Sample test assignments from JS course few years ago: [Contact Book](https://docs.google.com/document/d/1a0q0TQDEShK_3xzUEeUWe4Vuipc4haMXzZyIDTDslvk/edit?usp=sharing), [Gaussian solver](https://gist.github.com/programulya/659481e897de02408d57). Quantity and complexity of tasks depend solely on the quantity of participants and mission. Be sure to agree in the team on general criteria used to measure completeness/quality of the solution.
 You will also need a template for email. Sample email from a few years ago can [be found here](https://docs.google.com/document/d/1NdzuedOws88hTeMejvFjnLY0E6vIXGeEcmjzkPLNoME/edit?usp=sharing).
 Set up the deadline for handing in test assignments (usually, one month from the day of sending out test assignments) and the form of completed test assignment you expect to receive (for code that would be a github repo with proper README to start and run the project). Think about adding bonus points for deployed app (heroku / etc. for server apps or github pages for static web apps).
-TODO: add section on google scripts for doing mass-email
-TODO: add note about mailchimp
+
+#### Doing actual mailing using google scripts
+You can use ability of google scripts to send emails using simple script and google spreadsheet.
+I. Create google spreadsheet. Fill in a column of emails and possibly names / personalized message if you want to in neighbouring cell.
+something like
+
+| |Email | Name |
+|-|----- | ---- |
+|1|a@b.c | John |
+|2|b@c.d | Azaz |
+
+II. Tools -> Script Editor, create script, similar to following:
+```javascript
+function sendEmails() {
+
+  var sheet = SpreadsheetApp.getActiveSheet();
+  /*
+    actually could rewrite this to use something like
+    var activeCell = sheet.getActiveCell();
+    while (activeCell.getValue() != '') {
+      // do things with current active cell which will be looping
+      // over cells while they are not empty
+      activeCell = activeCell.offset(1, 0);
+    }
+  */
+  var startRow = 2;  // First row of data to process
+  var numRows = 60;  // Number of rows to process
+
+  var dataRange = sheet.getRange(startRow, 1, numRows)
+  // Fetch values for each row in the Range.
+  var data = dataRange.getValues();
+
+  var subject = "Sample subject goes here";  
+  // TODO: need to test whether google script accepts template strings
+  // TODO: change sample message?
+  var message = "<html><body>"
+  + "<p>Привет!</p>"
+  + "<p>Осталась неделя до nodeschool в Киеве. Для того чтобы воркшоп прошел с максимальной пользой для каждого участника</p>"
+  + "<p>мы подготовили краткое <a href='https://gist.github.com/sejoker/2c34f1b12c435d97cc0f'>руководство</a> для настройки вашей среды.</p>"
+  + "<p>Установленный node и npm сэкономит время для быстрого старта в следующую субботу.</p><br><br>"
+  + "<p>Все вопросы по установке оставляйте в комментариях, мы постараемся оперативно отвечать.</p>"
+  + "<p>Хороших выходных,</p>"
+  + "<p>организаторы ивента.</p>"
+  + "</body></html>";
+  Logger.clear();
+  data.forEach(function(row, i, all){
+    var emailAddress = row[0];  // First column
+    // var name = row[1] - can get name here
+    Logger.log('Will send email #'+ i + '  to: ' + emailAddress + ' of: ' + all.length);
+    if (i === 1) { // sending first email to personal email for content checking
+      MailApp.sendEmail('john@kottans.org', subject, "", {htmlBody: message});
+    }
+    MailApp.sendEmail(emailAddress, subject, "", {htmlBody: message});
+  });
+
+
+  // sending summary of processed items to own address
+  var body = Logger.getLog();
+  MailApp.sendEmail('john@kottans.org', 'Addresses we mailed to', body);
+  Logger.clear();
+}
+```
+![Sample view of script editor](images/script-editor.png)
+
+III. You can now click ▶︎ button and run your script
+
+![](images/script-running.png)
+
+which would require you to authorize google account and send letters from it (you'll see it in your inbox).
+
+> __NOTE: there's daily quota for how many emails single account can send from google scripts. Last time we checked it was 100 emails. Which means that if you have more applicants you will have to either do batches for several days or use several accounts. __
+
+#### Doing actual mailing using mailchimp
+
+You can also use [mailchimp](http://mailchimp.com) or similar service for mailing campaigns. It will usually mean you won't have to write setup code and work around google scripts email limitations, but they will require payment.
 
 ### Checking test assignments and providing feedback
 
@@ -213,8 +286,21 @@ Sad one should state that people didn't make it to the group, but should keep in
 Happy emails would be about date and time of first lesson, place, prerequisites.
 
 ### Setting up courses
+
+To actually setup courses, you will need to setup
+1. Group chat or other means of communication
+2. Progress tracking / group list
+3. Calendar
+
+#### Group chat
+
+In the past we had experience with using skype and [gitter](http://gitter.im/kottans) for text communication. It's useful to ask a question (btw, you are welcome to ask questions related to this document or any other in [our main channel](http://gitter.im/kottans/kottans.github.io)), make an announcement, share link / code snippet (whether that's during lecture or in spare time).
+We did experiment with using slack, but that wasn't too successful.
+All these would be free (or have free plans), but they might have downside to them (limited history, sync across devices, limited number of participants in private channel).
+
 ### Homework tracking / check / feedback
 ### Running the course / workshops
+4. Set up recording / airing of lectures
 ### Tracking progress
 ### Gathering course feedback
 Getting feedback is generally a good idea.
