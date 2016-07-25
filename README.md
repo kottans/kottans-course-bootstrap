@@ -12,6 +12,29 @@ This repo is intended to provide a high-level frameworkish guide of creating and
 
 I foresee rule #2 having some sort of exceptions which should be agreed upon by most kottans, but #1 is a must.
 
+### Contents
+
++ [Setting your expectations for results and time involvement](#setting-your-expectations-for-results-and-time-involvement)
++ [All the things you need to run a course](#all-the-things-you-need-to-run-a-course)
+  + [Team](#team)
+  + [Shared vision](#shared-vision)
+  + [Program](#program)
+  + [Venue](#venue)
+  + [Students](#students)
++ [Description of actual processes](#description-of-actual-processes)
+  + [Announcing course](#announcing-course)
+  + [Getting registrations](#getting-registrations)
+  + [Sending out test assignment](#sending-out-test-assignment)
+  + [Checking test assignments and providing feedback](#checking-test-assignments-and-providing-feedback)
+  + [Setting up interview](#setting-up-interview)
+  + [Interview && interview feedback](#interview--interview-feedback)
+  + [Setting up courses](#setting-up-courses)
+  + [Homework tracking / check / feedback](#homework-tracking--check--feedback)
+  + [Running the course / workshops](#running-the-course--workshops)
+  + [Tracking progress](#tracking-progress)
+  + [Gathering course feedback](#gathering-course-feedback)
++ [Useful tools](#useful-tools)
+  
 ## Setting your expectations for results and time involvement
 
 Creating a course takes time, energy, cognitive resources and, possibly, money. You won't get instantly-famous, you won't become an IT rockstar, you won't become women/men magnet. But I promise you would meet some great people, learn something new along the way, be it things about people nature, the technology you love, productivity, community.
