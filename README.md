@@ -165,10 +165,10 @@ You can use ability of google scripts to send emails using simple script and goo
 I. Create google spreadsheet. Fill in a column of emails and possibly names / personalized message if you want to in neighbouring cell.
 something like
 
-|   | Email | Name |
-| - | ----- | ---- |
-| 1 | a@b.c | John |
-| 2 | b@c.d | Azaz |
+   | Email | Name
+ - | ----- | ----
+ 1 | a@b.c | John
+ 2 | b@c.d | Azaz
 
 II. Tools -> Script Editor, create script, similar to following:
 ```javascript
