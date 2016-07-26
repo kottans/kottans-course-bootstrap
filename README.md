@@ -34,7 +34,7 @@ I foresee rule #2 having some sort of exceptions which should be agreed upon by 
   + [Tracking progress](#tracking-progress)
   + [Gathering course feedback](#gathering-course-feedback)
 + [Useful tools](#useful-tools)
-  
+
 ## Setting your expectations for results and time involvement
 
 Creating a course takes time, energy, cognitive resources and, possibly, money. You won't get instantly-famous, you won't become an IT rockstar, you won't become women/men magnet. But I promise you would meet some great people, learn something new along the way, be it things about people nature, the technology you love, productivity, community.
@@ -229,7 +229,7 @@ III. You can now click ▶︎ button and run your script
 
 which would require you to authorize google account and send letters from it (you'll see it in your inbox).
 
-> __NOTE: there's daily quota for how many emails single account can send from google scripts. Last time we checked it was 100 emails. Which means that if you have more applicants you will have to either do batches for several days or use several accounts. __
+> __NOTE: there's daily quota for how many emails single account can send from google scripts. Last time we checked it was 100 emails. Which means that if you have more applicants you will have to either do batches for several days or use several accounts.__
 
 #### Doing actual mailing using mailchimp
 
