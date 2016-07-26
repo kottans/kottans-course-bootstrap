@@ -288,6 +288,7 @@ Happy emails would be about date and time of first lesson, place, prerequisites.
 ### Setting up courses
 
 To actually setup courses, you will need to setup
+
 1. Group chat or other means of communication
 2. Progress tracking / group list
 3. Calendar
@@ -298,11 +299,134 @@ In the past we had experience with using skype and [gitter](http://gitter.im/kot
 We did experiment with using slack, but that wasn't too successful.
 All these would be free (or have free plans), but they might have downside to them (limited history, sync across devices, limited number of participants in private channel).
 
+#### Progress tracking / group list
+
+TODO: fill this out
+
+#### Calendar
+
+TODO: fill this out
+
 ### Homework tracking / check / feedback
+
+There are two main models of accepting / tracking homeworks:
+
+1. Single repo that all the students fork and send pull request to.
+
+```
+.
+├── README.md             # First point of entry. List of students / dates / topics / kottan site link?
+└── tasks
+    ├── README.md         # All the tasks/problems description in markdown, living document
+    ├── student1          # Github username of student
+    │   ├── week1-task1   # folder that contains student's solution
+    │   ├── week1-task2
+    │   └── week2-task1
+    └── student2
+        ├── week1-task2
+        └── week2-task1
+```
+
+Students get to create PRs to add their solution to the repo in corresponding folder.
+Might be useful to add all students to github team that has write (?) access to the repo.
+
+PROS:
++ PR commenting for providing feedback
++ No need to track multiple repos
++ Coaches can create separate issues if they find something and assign to corresponding student
++ Students can do peer review as everything is in the open
++ Students learn how to work with github / PR / pulling changes from remote
+
+CONS:
++ Students might have temptation to look at other people's solutions
++ If someone messes up the repo/history, he does it for everyone
++ Lots of notifications spamming everyone, who is 'watching' the repo
++ Lots of folders – might be hard to track separate student's activity
++ Work won't get to master until approved by someone
++ Students don't own repo with their homework – might pose issues for setting up CI, etc
+
+2. Repo per student.
+Each students creates a repo, documents that via PR to course repo (more about it below) and stores solutions for the problems in separate folders.
+```
+├── week1-task1
+├── week1-task2
+├── week2-task2   
+└── week2-task1   
+```
+In that case homework usually is assigned by opening an issue in student's repo using our beloved 😼[tiny-kottan](https://github.com/tiny-kottan) and github api from google scripts and homework sheet (more about that below).
+
+PROS:
++ Students own the repo, responsible for setting it up and maintaining
++ Count of open issues = count of not (fully) done homework assignments
++ Everyone gets personal notification when they have a new assignment
++ No need to get lots of notifications
+
+CONS:
++ Setup for opening issues
++ Decentralized bookkeeping (who did what where)
++ No ability to reopen / close issue by the coach (although students could add coaches and tiny-kottan as collaborators…)
+
+We usually used option #2. Historical reasons.
+
+To track overall progress, we would use github api and google spreadsheet's scripts
+Script:
+```
+// githubHandlerRepo
+function getOpenIssues(githubHandlerRepo, counterVar) {
+  var url = [
+    'https://api.github.com/repos/',
+    githubHandlerRepo, // ~ string "%organizationName%/%repoName%
+    '/issues?state=open&',
+    'access_token=%access_token_here%' // increases github rate limit https://help.github.com/articles/creating-an-access-token-for-command-line-use
+  ].join('');
+  var options =
+  {
+    // Get fresh data at least once in 4 minutes
+    headers : {'Cache-Control' : 'max-age=240'}
+  };
+  var response = JSON.parse(UrlFetchApp.fetch(url, options));
+
+  return response.length;
+}
+
+
+function getGithubUrl(githubHandlerRepo) {
+  return githubHandlerRepo ? "http://github.com/" + githubHandlerRepo : ''
+}
+
+function getUsername(githubHandlerRepo) {
+  return githubHandlerRepo ? githubHandlerRepo.split('/')[0] : ''
+}
+function getGitterUrl(githubHandlerRepo) {
+  return "https://gitter.im/" + getUsername(githubHandlerRepo)
+}
+
+function updateCounter() {
+   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Progress');
+   var cell = sheet.setActiveSelection("J1");
+   cell.setValue(cell.getValue() + 1)
+}
+```
+
+In spreadsheet you would have something like following
+
+|   |   A   |  B   | … | J  |
+|---|-------|------| --| -- |
+| 1 | username/repo | open issues count | … | 2
+| 2 | student1/homeworks | =getOpenIssues(A2, $J$1) | … |
+| 3 | student2/homeworks | =getOpenIssues(A3, $J$1) | … |
+
+`J1` is a counter used to work around google spreadsheet not initing any AJAX request if function is invoked with same params.
+
+For structure like in #1 you would probably want to filter issues by assignee to get same metric.
+
 ### Running the course / workshops
+
+Other than setting
 4. Set up recording / airing of lectures
-### Tracking progress
+
 ### Gathering course feedback
+
 Getting feedback is generally a good idea.
 In order to get *relevant* feedback from students it is appropriate to hand out surveys e.g through Google Forms (Survey example [here](https://docs.google.com/forms/d/e/1FAIpQLSeYJyYhET-JXTBznzmsDleUg9HFMy-nnzzVaHGu0OlL9oQsSg/viewform))
 after each lecture\workshop.
