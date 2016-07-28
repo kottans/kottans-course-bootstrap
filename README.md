@@ -1,47 +1,49 @@
 # kottans-course-bootstrap
 
-## About this repo and Kottans course
+## Introduction
 
-Hello there!
-Possibly, you landed here from somewhere on the web or one of the fellow kottans gave you a link to this doc.
-This repo is intended to provide a high-level frameworkish guide of creating and running a course, supposedly, related to kottans.
-'So anyone can run a kottans course?' – one can ask. Answer is yes*
-`*` - given you follow some principals like:
+Welcome!
+The repo focuses on providing a high-level frameworkish guide of creating and running a course, supposedly, related to kottans.
+You might ask:
+
+> So anyone can run a kottans course?
+
+The answer is **yes** with the following clarifications:
   1. being nice
-  2. not taking money for the course and thus using kottans™ name for making a profit.
+  2. not taking money***** for the course and thus using kottans™ brand for making a profit
 
-I foresee rule #2 having some sort of exceptions which should be agreed upon by most kottans, but #1 is a must.
+    ***** There is possible some sort of exceptions which should be agreed upon by most kottans members
 
-### Contents
+### Table of contents
 
-+ [Setting your expectations for results and time involvement](#setting-your-expectations-for-results-and-time-involvement)
-+ [All the things you need to run a course](#all-the-things-you-need-to-run-a-course)
++ [Setting your expectations for results and time involvement](#expectations)
++ [All the things you need to run a course](#requirements)
   + [Team](#team)
   + [Shared vision](#shared-vision)
   + [Program](#program)
   + [Venue](#venue)
   + [Students](#students)
-+ [Description of actual processes](#description-of-actual-processes)
++ [Description of actual processes](#workflow)
   + [Announcing course](#announcing-course)
   + [Getting registrations](#getting-registrations)
   + [Sending out test assignment](#sending-out-test-assignment)
-  + [Checking test assignments and providing feedback](#checking-test-assignments-and-providing-feedback)
+  + [Checking test assignments and providing feedback](#test-assignment)
   + [Setting up interview](#setting-up-interview)
-  + [Interview && interview feedback](#interview--interview-feedback)
+  + [Interview && interview feedback](#interview)
   + [Setting up courses](#setting-up-courses)
-  + [Homework tracking / check / feedback](#homework-tracking--check--feedback)
-  + [Running the course / workshops](#running-the-course--workshops)
+  + [Homework tracking / check / feedback](#monitoring)
+  + [Running the course / workshops](#live-event)
   + [Tracking progress](#tracking-progress)
   + [Gathering course feedback](#gathering-course-feedback)
 + [Useful tools](#useful-tools)
 
-## Setting your expectations for results and time involvement
+## <a id="expectations"></a> Setting your expectations for results and time involvement
 
 Creating a course takes time, energy, cognitive resources and, possibly, money. You won't get instantly-famous, you won't become an IT rockstar, you won't become women/men magnet. But I promise you would meet some great people, learn something new along the way, be it things about people nature, the technology you love, productivity, community.
 Course length can vary. Historically, there were courses from 2.5 to 5 month long.
 Preparation for the course, based on available resources, program materials, and a team might vary from week to several months.
 
-## All the things you need to run a course
+## <a id="requirements"></a>  All the things you need to run a course
 
 1. Motivated team
 2. Shared vision
@@ -127,7 +129,7 @@ Usually, group would include motivated and curious future kottans or alumni kott
 
 Be aware that students tend to drop out the course. Drop rate might vary per course, based on its length, complexity, engagement and may vary from 10-15% to 66-80% (just a ration of students that are not making it till the end). Apart from personal reasons students might be dropping out, there's also a possibility that coaches can decide to exclude someone from the course in case of not keeping up with homeworks for a long time (usually, baseline is you can have at most 3 home assignments not done until coach would interfere) or other reasons (rude behaviour?).
 
-## Description of actual processes
+## <a id="workflow"></a> Description of actual processes
 
 >_Quick tip on managing files: create google drive folder for a course and share it with everyone involved. Store artifacts there_
 
@@ -235,7 +237,7 @@ which would require you to authorize google account and send letters from it (yo
 
 You can also use [mailchimp](http://mailchimp.com) or similar service for mailing campaigns. It will usually mean you won't have to write setup code and work around google scripts email limitations, but they will require payment.
 
-### Checking test assignments and providing feedback
+### <a id="test-assignment"><a/> Checking test assignments and providing feedback
 
 Store references to applicant, his/her email (possibly skype/gitter), and test assignment. Google spreadsheet might work for this, as you will need to add comments and mark items as checked/rejected. Comments can be send right away using email/skype/gitter. Indicate that feedback was sent for other coaches to be aware.
 Notes here:
@@ -260,7 +262,7 @@ You will need to set up some sort of __preliminary schedule__. Assuming 5-6 peop
 You will need to inform students. You might share the spreadsheet and let people try to figure all the issues out themselves (switch with someone else, etc), or just send the invite directly using email and deal with outstanding cases yourself.
 Note, there will be someone, who won't be able to attend in person. Consider doing an interview using hangouts/skype either before or after all other interview session, but try not to have too much time between those so your memories would be fresh.
 
-### Interview && interview feedback
+### <a id="interview"></a> Interview && interview feedback
 
 Be sure to have enough water in close proximity and more than one person doing the interview. It will let you take turns in interviewing (and you will be talking a lot, and it's exhausting) and have multiple opinions for a candidate that can be somehow averaged afterwards.
 During interview tell about course program, ask person
@@ -307,7 +309,7 @@ TODO: fill this out
 
 TODO: fill this out
 
-### Homework tracking / check / feedback
+### <a id="monitoring"></a> Homework tracking / check / feedback
 
 There are two main models of accepting / tracking homeworks:
 
@@ -420,7 +422,7 @@ In spreadsheet you would have something like following
 
 For structure like in #1 you would probably want to filter issues by assignee to get same metric.
 
-### Running the course / workshops
+### <a id="live-event"></a> Running the course / workshops
 
 Other than setting
 4. Set up recording / airing of lectures
