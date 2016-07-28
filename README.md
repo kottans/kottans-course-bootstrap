@@ -64,13 +64,13 @@ The manager can work part-time and his/her responsibilities are:
 + solving interview and sponsor related questions
 + setting up and maintaining lecture schedules, progress-tracking pages
 
-The coaches have to be familiar with a course technology at the middle/senior level. It is highly recommended do not
+The coaches have to be familiar with a course technology at the middle/senior level. It is highly recommended not to
 start a course with one coach. There is a good chance of losing her/him at some moment by a personal/work related
 unexpected involvement. As the result the course will be stopped and it's quite difficult to bring attendees back after
 a pause.
 
 <a id="guests"></a>Along the way, a course can invite a guest speaker. Inviting guest speakers relieve the coaches
-from the duty. The students will meet other people in the community and their use cases. Invite a person as a guest
+from the duty. The students will meet other people in the community and learn their use cases. Invite a person as a guest
 speaker if she/he has a more experience in a topic. You can choose from other kottans, gitter communities, speakers at
 meetups/conferences. As guest speakers often don't do it on regular basis, be prepared for the next:
 + might forget about the event
@@ -105,7 +105,7 @@ In the previous courses we were faced the conflict among:
 + not to make an endless course
 
 Take to note the next recommendations:
-+ don't plan a course for more than 16 weeks. Try reduce a scope by self-education, a good videos, defining the
++ don't plan a course for more than 16 weeks. Try reduce a scope by self-education, good videos, defining the
 core aspects needed to understand the technology, etc
 + as there are 2 lectures per week try to cover a big topic during a same week rather splitting it across a weekend
 + workshops are optional, so skipping a workshop shouldn't harm a student learning course in future
