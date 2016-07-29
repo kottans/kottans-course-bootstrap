@@ -482,3 +482,4 @@ If course team is not yet buried in feedback it would be nice to have a pre-cour
 4. [Mailchimp](http://mailchimp.com/)
 5. [Hangouts on air](https://plus.google.com/hangouts/onair)
 6. [Sketchpad](https://sketch.io/sketchpad/) – useful for sharing screen via hangouts and drawing stuff
+7. [Gitter](https://gitter.im/)
