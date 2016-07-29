@@ -314,10 +314,12 @@ Given you have program with topics / lectures, you can lay this out in the calen
 We were using [Google Calendars](https://calendar.google.com/calendar/render) for this. You would set up reocurring events for lectures / workshops. You can provide topics as event names beforehand (we would not suggest doing it for whole course in advance, as they might change, but keeping up to date info for couple weeks in advance might be helpful). You might want to add guest speakers as invitees to the events, so they get notification, etc.
 If you go into calendars settings
 ![](images/google-calendar-settings.png)
+
 Select 'Calendars' tab on top, you will be able to
-a) share edit right to calendar to specific people
-b) make it public so anyone with the link will be able to view it
-c) share calendar ical/html link (click on calendar title to get into specific calendar details, click ICAL / HTML button to get the link).
+
+1. share edit right to calendar to specific people
+2. make it public so anyone with the link will be able to view it
+3. share calendar ical/html link (click on calendar title to get into specific calendar details, click ICAL / HTML button to get the link).
 
 ### <a id="monitoring"></a> Homework tracking / check / feedback
 
