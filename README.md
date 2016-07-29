@@ -473,4 +473,10 @@ At the end of the course the final survey is a must.
 If course team is not yet buried in feedback it would be nice to have a pre-course survey to gather student's **expectations and background**.
 
 ## Useful tools
-TODO: fill out
+
+1. ![Google Calendar](http://google.com/calendar)
+2. ![Google Docs/Drive](https://drive.google.com)
+3. ![Github](https://github.com)
+4. ![Mailchimp](http://mailchimp.com/)
+5. ![Hangouts on air](https://plus.google.com/hangouts/onair)
+6. ![Sketchpad](https://sketch.io/sketchpad/) – useful for sharing screen via hangouts and drawing stuff
