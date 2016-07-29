@@ -303,11 +303,20 @@ All these would be free (or have free plans), but they might have downside to th
 
 #### Progress tracking / group list
 
-TODO: fill this out
+There are countless possible ways of keeping track of the group (active/inactive students, maybe, quantity of done/undone hometasks, etc). Two easiest would be google doc or github repo.
+Using github repo as easy as creating a repo and listing students in repo, [like this](https://github.com/Kottans/JS2016-3-). You can share other useful information along, like [calendar](#calendar), etc. In that case, 'count of homeworks' would be a link to github issues tab of corresponding repo (with possibly some additional filters applied).
+If you choose google spreadsheet to do this, you will be able to use google sctipt to query quantity of open issues for corresponding repo. More info can be found [down below](#monitoring).
 
 #### Calendar
 
-TODO: fill this out
+Given you have program with topics / lectures, you can lay this out in the calendar. You might use any calendar app that would be able to export to iCal / other popular formats, allow multiple editors, etc.
+We were using [Google Calendars](https://calendar.google.com/calendar/render) for this. You would set up reocurring events for lectures / workshops. You can provide topics as event names beforehand (we would not suggest doing it for whole course in advance, as they might change, but keeping up to date info for couple weeks in advance might be helpful). You might want to add guest speakers as invitees to the events, so they get notification, etc.
+If you go into calendars settings
+![](images/google-calendar-settings.png)
+Select 'Calendars' tab on top, you will be able to
+a) share edit right to calendar to specific people
+b) make it public so anyone with the link will be able to view it
+c) share calendar ical/html link (click on calendar title to get into specific calendar details, click ICAL / HTML button to get the link).
 
 ### <a id="monitoring"></a> Homework tracking / check / feedback
 
@@ -424,8 +433,15 @@ For structure like in #1 you would probably want to filter issues by assignee to
 
 ### <a id="live-event"></a> Running the course / workshops
 
-Other than setting
-4. Set up recording / airing of lectures
+We usually would use [Hangouts on Air](https://plus.google.com/hangouts/onair) for setting up broadcast on youtube.
+
+> Note: as of July 2016 switching user dropdown on top right is not working, so to switch to another account and start hangout using it, modify URL to be something like https://plus.google.com/u/1/hangouts/onair where 1 is the index of user in dropdown you want to use
+
+Once you start hangout on air and lecture is on, be sure to share link to video in group's chat. It might be a good idea to track all the videos from same course using youtube playlist / other place.
+
+Workshops would usually not be recorded. Be aware that you would need extra people to help on the workshop. As speaker proceeds with livecoding, there might be case when particular students will run into issues due to misconfig, typo, etc. and instead of distracting speaker and stopping everyone, it might be useful to have assistant coach to step in and solve the issue.
+
+For workshops you might also want to sync up with group and figure out, whether you need to order food in advance. Usually, you will order food even before you start so it gets sometime in the middle of the workshop.
 
 ### Gathering course feedback
 
