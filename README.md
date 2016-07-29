@@ -77,7 +77,7 @@ meetups/conferences. As guest speakers often don't do it on regular basis, be pr
 + might forget about the event
 + can change their mind about coming and don't notify the team
 + forget to make an examples and get all required stuff
-+ be stopped in the middle (if the event has a time restrictions)
++ go over designated time
 
 It is a difficult part. To avoid a failure try to contact the guest before one or two days and check every
 aspect. As a team member you should backup a guest by jumping in and covering the topic or change the course
@@ -105,7 +105,7 @@ In the previous courses we were faced the conflict among:
 + a desire to explain everything from the bottom to the top
 + not to make an endless course
 
-Take to note the next recommendations:
+The recommendations to follow:
 + don't plan a course for more than 16 weeks. Try reduce a scope by self-education, good videos, defining the
 core aspects needed to understand the technology, etc
 + as there are 2 lectures per week try to cover a big topic during a same week rather splitting it across a weekend
