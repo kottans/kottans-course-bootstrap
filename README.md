@@ -426,7 +426,7 @@ In spreadsheet you would have something like following
 
 |   |   A   |  B   | … | J  |
 |---|-------|------| --| -- |
-| 1 | username/repo | open issues count | … | 2
+| 1 | username/repo | open issues count | … | 2 |
 | 2 | student1/homeworks | =getOpenIssues(A2, $J$1) | … |
 | 3 | student2/homeworks | =getOpenIssues(A3, $J$1) | … |
 
