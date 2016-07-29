@@ -424,11 +424,11 @@ function updateCounter() {
 
 In spreadsheet you would have something like following
 
-|   |   A   |  B   | … | J  |
-|---|-------|------| --| -- |
+|   |   A           |  B   | … | J  |
+|---|---------------|------|---|----|
 | 1 | username/repo | open issues count | … | 2 |
-| 2 | student1/homeworks | =getOpenIssues(A2, $J$1) | … |
-| 3 | student2/homeworks | =getOpenIssues(A3, $J$1) | … |
+| 2 | student1/homeworks | =getOpenIssues(A2, $J$1) | … |   |
+| 3 | student2/homeworks | =getOpenIssues(A3, $J$1) | … |   |
 
 `J1` is a counter used to work around google spreadsheet not initing any AJAX request if function is invoked with same params.
 
