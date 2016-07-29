@@ -125,6 +125,7 @@ After that you will need to:
   1. Create the final list of topics
   2. Break up the topics and the workshops by week with calendar timeline
   3. Put down high-level contents of each session. A sample for a js course:
+  
   ```
     Topic: HTML
     + meta tags, semantics, document outline, forms, input elements, tables)
@@ -138,6 +139,7 @@ After that you will need to:
     Topic: CSS    #2
     + CSS 3 (flexboxes, transitions/animations, mention box layouts, grids…)
   ```
+  
   4. Assign the primary and the backup coach
   5. Discuss the fallback strategy in case someone is sick / not showing up / etc. (Identify, which topics can be moved
     around, what can be skipped and revisited later in other topics, etc)
