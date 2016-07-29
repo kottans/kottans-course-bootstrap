@@ -17,8 +17,8 @@ The answer is **yes** with the following clarifications:
 
 ### Table of contents
 
-+ [Setting your expectations for results and time involvement](#expectations)
-+ [All the things you need to run a course](#requirements)
++ [Preface](#preface)
++ [The ingredients for a course](#requirements)
   + [Team](#team)
   + [Shared vision](#shared-vision)
   + [Program](#program)
@@ -38,65 +38,99 @@ The answer is **yes** with the following clarifications:
   + [Gathering course feedback](#gathering-course-feedback)
 + [Useful tools](#useful-tools)
 
-## <a id="expectations"></a> Setting your expectations for results and time involvement
+## <a id="preface"></a> Preface
 
-Creating a course takes time, energy, cognitive resources and, possibly, money. You won't get instantly-famous, you won't become an IT rockstar, you won't become women/men magnet. But I promise you would meet some great people, learn something new along the way, be it things about people nature, the technology you love, productivity, community.
-Course length can vary. Historically, there were courses from 2.5 to 5 month long.
-Preparation for the course, based on available resources, program materials, and a team might vary from week to several months.
+A course creation takes time, physical and material resources. The results of it won't make you famous instantly. You
+will not become an IT rockstar or an attractive person. But there is 100% guarantee, along the way you would meet a
+great people and get a new knowledge (from a things about people nature & community to productivity and the technology
+you love). A course length is not the same. In the past there were a courses from 2.5 to 5 month long. A preparation for
+a course, based on an available resources (a team with a program materials) might vary from a week to several months.
+So be prepared for a deadline increasing, take enough motivation and patience to finish it and good luck.
 
-## <a id="requirements"></a>  All the things you need to run a course
+## <a id="requirements"></a> The ingredients for a course
 
-1. Motivated team
-2. Shared vision
-3. Program
-4. Venue
-5. Students
++ [a motivated team](#team)
++ [a shared vision](#shared-vision)
++ [a program](#program)
++ [a venue](#venue)
++ [students](#students)
 
 ### Team
-Ideally, more than 3 people.
-At least one 'manager'/'problem-solver', can be part-timer. Should take care of
-+ registration + task handouts
-+ solving interview related question
-+ venue sponsor related question
-+ setting up and maintaining calendars / actual schedules with appointed coaches
-+ setting up and maintaining progress tracking pages
 
-At least 2 core members, familiar with technology.
-Both should be self-identifying as middle/senior on the given topic.
-Why at least 2 core members? It's too much to handle for a single person, and having 2 members reduces the risk of coach missing our the lecture due to personal/work related unexpected involvement.
+To start a course you have to find **at least 3 people** - a manager and two coaches.
 
-Along the way, there might be (and should be) guest speakers. Guest speakers are great as inviting them reduces the pressure on the core team, students will learn about other people / use cases in the community, and guest speakers usually might have more relevant experience regarding topic discussed. Be aware, that unlike core members, guest speakers tend to be less reliable, as they are less involved and occasionally might forget about the lecture they agreed to teach, refuse to come, etc. This is the hard part, as core member should be able to either jump in and cover the topic nonetheless or work around program and switch topic to the one scheduled for later.
+The manager can work part-time and his/her responsibilities are:
++ registration
++ task handouts
++ solving interview and sponsor related questions
++ setting up and maintaining lecture schedules, progress-tracking pages
+
+The coaches have to be familiar with a course technology at the middle/senior level. It is highly recommended not to
+start a course with one coach. There is a good chance of losing her/him at some moment by a personal/work related
+unexpected involvement. As the result the course will be stopped and it's quite difficult to bring attendees back after
+a pause.
+
+<a id="guests"></a>Along the way, a course can invite a guest speaker. Inviting guest speakers relieve the coaches
+from the duty. The students will meet other people in the community and learn their use cases. Invite a person as a guest
+speaker if she/he has a more experience in a topic. You can choose from other kottans, gitter communities, speakers at
+meetups/conferences. As guest speakers often don't do it on regular basis, be prepared for the next:
++ might forget about the event
++ can change their mind about coming and don't notify the team
++ forget to make an examples and get all required stuff
++ be stopped in the middle (if the event has a time restrictions)
+
+It is a difficult part. To avoid a failure try to contact the guest before one or two days and check every
+aspect. As a team member you should backup a guest by jumping in and covering the topic or change the course
+program and shift the topic for later.
+
+There were cases when a guest speaker was from another city via google hangouts. Keep in mind, this is less effective.
 
 ### Shared vision
-Team should be sharing vision about
-+ for whom the course should be most beneficial (i.e. target audience – language switchers / junior devs with no previous experience, etc.). At this step, the prerequisite knowledge and level of topics (beginner, advanced, pro) can be defined.
-+ what should be the end goal of the course (i.e. people being really familiar with core Ruby and being able to work with Rails, etc).
 
-Based on this two, usually, you would be able to conclude what should be the minimal knowledge/skillset required to achieve this.
+The team has to agree the key points:
++ the audience - for whom the course should be most beneficial. They could be language switchers, junior developers without
+experience, etc.
++ the reason - why do the course have to be? For example, course "Introduction into Ruby & RoR" teaches people to write
+a basic Ruby scripts and works with the framework.
+
+Taking to account the points you will find out the minimal knowledge/skillset required for a course.
 
 ### Program
-Based on team's skillset and shared vision, you can now try to approach taming the beast of forming the program. The issue with creating a program is conflict between wanting to go over all the important things™ in depth, wanting to explain everything from bottom to top and finally not to turn this into endless courses without actual full stop.
-Usually, courses would be having 2 lectures per week during working days (around 1.5 hours each) and a workshop once every two weeks, that can last for several hours (4-6). There's also homework related to the topic.
 
-Few possible recommendations:
-+ don't plan courses for more than 16 weeks, unless you plan to switch all coaches and students with some new people along the course :). Try shaving the scope of courses, utilizing the power of self-education and good explanatory videos, formulating the core aspects needed to grasp the technology etc.
-+ given there are two lectures a week it might make sense to break up things logically to cover bigger topic during same week, not splitting those across weekend
-+ workshops should be optional, i.e. skipping workshop shouldn't harm student's progressing the course further (as this usually takes time on a weekend and people tend to have real life, work and weekends never will work for everyone). Instead, think of this time as an opportunity to do something fun, hack on something small, built functional prototype/app, play with something niche, i.e.: if mission states we want in the end to have people familiar with ruby and rails, it might be a fun thing to hack on ruby internals; if mission states we want in the end to have people familiar with core js and have some idea of high-level js frameworks, it might be a fun thing to play with Three.js/d3/canvases/phaser/tessel, etc. To sum up: bring some fun to the course and talk about related, but not core things
-+ think who might be a good suit for a guest speaker for the topic: other kottans, gitter communities, speakers at local meetups/conferences might be of help to determine this. Think about who would be a backup coach, just in case guest speaker won't be able to make it. There were cases when the guest speaker was presenting from another city / abroad, using google hangouts. Keep in mind, this is less effective.
-+ plan for intro and outro sessions.
-+ given there are two sessions per week, homework after the first one might be 'lighter' and be less time consuming (maybe, read some docs/articles/books or view videos etc.), and bigger homework should be assigned for weekend break
+The next step in starting a course is filling a program. Usually a course has 2 lectures per week. A lecture takes an
+1.5 hours. A workshop is every two weeks for 4-6 hours each. There's a homework related to the topic as well.
+
+In the previous courses we were faced the conflict among:
++ teach all core important things™ in depth
++ a desire to explain everything from the bottom to the top
++ not to make an endless course
+
+Take to note the next recommendations:
++ don't plan a course for more than 16 weeks. Try reduce a scope by self-education, good videos, defining the
+core aspects needed to understand the technology, etc
++ as there are 2 lectures per week try to cover a big topic during a same week rather splitting it across a weekend
++ workshops are optional, so skipping a workshop shouldn't harm a student learning course in future
++ workshops usually take place on weekend when people tend to prefer to relax rather than attend a workshop. As the
+result think of this time as an opportunity to do something fun, hack on something small, build a functional
+prototype/app, play with a niche. In short - bring some fun to the course and talk about related, but not the core
+things. A few examples:
+  + if it's a ruby course try to look at the ruby internals
+  + for a js course you can play with [Three.js](http://threejs.org)
++ think about a [guest speaker](#guests) for a topic
++ plan for the start and end sessions
++ as there are 2 lectures in a week a homework after the first one might be 'lighter' and be less time consuming (read a
+  docs/articles/books or view videos) and a bigger homework should be assigned for the weekend break
 
 After that you will need to:
-  1. Create final list of topics
-  2. Break up topics and workshops by week with calendar timeline
-  3. Put down high-level contents of each session. Sample breakup for js course
-
+  1. Create the final list of topics
+  2. Break up the topics and the workshops by week with calendar timeline
+  3. Put down high-level contents of each session. A sample for a js course:
   ```
     Topic: HTML
     + meta tags, semantics, document outline, forms, input elements, tables)
     + Markup languages
-    + Before HTML5: history of HTML
-    + HTML5: semantic web
+    + Before HTML5: The history of HTML
+    + HTML5: The Semantic Web
     + Beyond HTML5
     + [PostHTML]
     Topic: CSS    #1
@@ -104,10 +138,12 @@ After that you will need to:
     Topic: CSS    #2
     + CSS 3 (flexboxes, transitions/animations, mention box layouts, grids…)
   ```
-
-  4. Assign primary and backup coach
-  5. Discuss fallback strategy in case someone is sick / not showing up / etc. (Identify, which topics can be moved around, what can be skipped and revisited later in other topics, etc)
-  6. Get ready with some materials for core topics for sure (usually, that would be [slides](http://kottans.org/#slides)). You will want to have those ready 2 weeks in advance before the actual lecture for everyone to review/provide feedback.
+  4. Assign the primary and the backup coach
+  5. Discuss the fallback strategy in case someone is sick / not showing up / etc. (Identify, which topics can be moved
+    around, what can be skipped and revisited later in other topics, etc)
+  6. Get ready with some materials for the core topics for sure (usually, that would be
+    [slides](http://kottans.org/#slides)). You will want to have those ready 2 weeks in advance before the actual
+    lecture for everyone to review/provide feedback.
 
 ### Venue
 Usually, a friendly company would be hosting our initiative's course. Sometimes we know the people who know the people on the inside, sometimes our fellow kottans are owning/working for such company, sometimes you have to go and ask.
@@ -194,7 +230,7 @@ function sendEmails() {
   // Fetch values for each row in the Range.
   var data = dataRange.getValues();
 
-  var subject = "Sample subject goes here";  
+  var subject = "Sample subject goes here";
   // TODO: need to test whether google script accepts template strings
   // TODO: change sample message?
   var message = "<html><body>"
@@ -364,8 +400,8 @@ Each students creates a repo, documents that via PR to course repo (more about i
 ```
 ├── week1-task1
 ├── week1-task2
-├── week2-task2   
-└── week2-task1   
+├── week2-task2
+└── week2-task1
 ```
 In that case homework usually is assigned by opening an issue in student's repo using our beloved 😼[tiny-kottan](https://github.com/tiny-kottan) and github api from google scripts and homework sheet (more about that below).
 
