@@ -476,9 +476,9 @@ If course team is not yet buried in feedback it would be nice to have a pre-cour
 
 ## Useful tools
 
-1. ![Google Calendar](http://google.com/calendar)
-2. ![Google Docs/Drive](https://drive.google.com)
-3. ![Github](https://github.com)
-4. ![Mailchimp](http://mailchimp.com/)
-5. ![Hangouts on air](https://plus.google.com/hangouts/onair)
-6. ![Sketchpad](https://sketch.io/sketchpad/) – useful for sharing screen via hangouts and drawing stuff
+1. [Google Calendar](http://google.com/calendar)
+2. [Google Docs/Drive](https://drive.google.com)
+3. [Github](https://github.com)
+4. [Mailchimp](http://mailchimp.com/)
+5. [Hangouts on air](https://plus.google.com/hangouts/onair)
+6. [Sketchpad](https://sketch.io/sketchpad/) – useful for sharing screen via hangouts and drawing stuff
