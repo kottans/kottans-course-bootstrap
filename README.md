@@ -11,7 +11,7 @@ You might ask:
 The answer is **yes** with the following clarifications:
   1. being nice
   2. not taking money* for the course and thus using kottans™ brand for making a profit
-  3. be acquainted / get in touch with at least one member of kottans community
+  3. be acquainted / get in touch with at least one member of kottans core member
 
     \* There is possible some sort of exceptions which should be agreed upon by most kottans members
 
