@@ -474,6 +474,8 @@ For structure like in #1 you would probably want to filter issues by assignee to
 
 ### <a id="live-event"></a> Running the course / workshops
 
+Student-to-student interactions are essential part of any Kottans course. while having video is awesome for education purposes, broadcasting every single lecture is known to affect students attendance to venue. If you're running single location course sharing recorded video after actual lecture might be a good option.
+
 We usually would use [Hangouts on Air](https://plus.google.com/hangouts/onair) for setting up broadcast on youtube.
 
 > Note: as of July 2016 switching user dropdown on top right is not working, so to switch to another account and start hangout using it, modify URL to be something like https://plus.google.com/u/1/hangouts/onair where 1 is the index of user in dropdown you want to use
