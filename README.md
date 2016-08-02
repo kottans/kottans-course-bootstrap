@@ -289,6 +289,8 @@ Notes here:
 
 Send feedback out. Reviewing progress after might get you a better understanding of person's willing to get to the course, ability to comprehend feedback, etc.
 
+Be prepared to be flooded with solutions in last few days before deadline. If there are too many applicants it might be reasonable not to provide detailed feedback to everyone - in that case it's better to prepare a high-level overview of common issues and best solutions and share it with all participants after deadline
+
 After deadline passing you will need to short-list applications based on your team's idea of the mission and level of applicants. Sometimes you might cross out someone because s/he's too good or because s/he's too bad.
 
 > Note: how long should be the _short_ list? Depends on amount of applications and how many people will take part in interviewing process. Our guess would be it takes 7-12 minutes to talk to one person. It means you will be able to talk to ~6 people an hour. Historically, interviews would be spread across multiple days and totaling in around 8-10 hours, which means you can have ~50 people there if you are doing it in single-thread.
