@@ -57,7 +57,7 @@ So be prepared for a deadline increasing, take enough motivation and patience to
 
 ### Team
 
-To start a course you have to find **at least 3 people** - a manager and two coaches.
+To start a course you have to find **at least 3 people** - a project coordinator and two coaches.
 
 The manager can work part-time and his/her responsibilities are:
 + registration
