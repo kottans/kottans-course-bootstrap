@@ -59,7 +59,7 @@ So be prepared for a deadline increasing, take enough motivation and patience to
 
 To start a course you have to find **at least 3 people** - a project coordinator and two coaches.
 
-The manager can work part-time and his/her responsibilities are:
+The coordinator can work part-time and his/her responsibilities are:
 + registration
 + task handouts
 + solving interview and sponsor related questions
