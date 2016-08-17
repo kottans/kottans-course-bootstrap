@@ -36,6 +36,7 @@ The answer is **yes** with the following clarifications:
   + [Running the course / workshops](#live-event)
   + [Tracking progress](#tracking-progress)
   + [Gathering course feedback](#gathering-course-feedback)
++ [Souvenirs](#souvenirs)
 + [Useful tools](#useful-tools)
 
 ## <a id="preface"></a> Preface
@@ -515,6 +516,29 @@ At the end of the course the final survey is a must.
 - What would the student change in course?
 ```
 If course team is not yet buried in feedback it would be nice to have a pre-course survey to gather student's **expectations and background**.
+
+## Souvenirs
+
+In case team and pupils are doing well and want to commemorate the course ending you may try to make some creative stuff e.g. printed T-Shirs or Hoodies, or both.
+### Nessessary team roles:
+
+- (required) **person who cares** and handles all negotiation with company that makes stuff and also collects money.Must have decent amount of reliability.
+- (optional) **Designer** to make basic check of created design
+- (optional) **Authority representative** a member of Kottans who has enough authority to handle conflict situations and provide pledge for some members(e.g. for kottans in other cities)
+
+Of course these roles can be handled by one person but availibility of such people can drastically simplify all process
+
+### Generating design
+**TBD**
+
+### Gathering orders
+**TBD**
+
+### Collecting money
+**TBD**
+
+### Handout
+**TBD**
 
 ## Useful tools
 
