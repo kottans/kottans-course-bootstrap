@@ -593,3 +593,9 @@ When dealing with several cities find responsible one for that particular city a
 5. [Hangouts on air](https://plus.google.com/hangouts/onair)
 6. [Sketchpad](https://sketch.io/sketchpad/) – useful for sharing screen via hangouts and drawing stuff
 7. [Gitter](https://gitter.im/)
+
+
+
+### License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
