@@ -535,7 +535,7 @@ Details about souvenirs from previous course can be found **[here](https://githu
 
 ### Gathering orders > Collecting money > Handout
 
-Use **[Google Forms](#url)**  with spreadsheet to collect info about 
+Use **[Google Forms](https://docs.google.com/forms/)**  with spreadsheet to collect info about 
 - amount of items
 - size
 - model (female\male)
