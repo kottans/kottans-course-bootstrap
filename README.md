@@ -526,3 +526,9 @@ If course team is not yet buried in feedback it would be nice to have a pre-cour
 5. [Hangouts on air](https://plus.google.com/hangouts/onair)
 6. [Sketchpad](https://sketch.io/sketchpad/) – useful for sharing screen via hangouts and drawing stuff
 7. [Gitter](https://gitter.im/)
+
+
+
+### License
+
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
