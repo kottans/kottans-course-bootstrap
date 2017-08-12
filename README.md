@@ -182,16 +182,9 @@ You might want to
 
 ### Getting registrations
 
-People are applying for the course(s) through [our site](http://kottans.org/#contact).
-
-1. Get an access to [application monitor](http://kottans.github.io/application-monitor).
-2. Set corresponding filters, matching a subset of students you are interested in. Be aware it's somewhat laggy and slow.
-![](images/application-monitor.png)
-3. Click export. Supposedly, if you exported student for some course, you would like to check that language checkbox & click 'Remove', so that person would not show up for the same language filter in the future (we want to remove people from the list so that they will get application email only once. If they want in next year, they should register again).
-![](images/application-monitor-export.png)
-4. You will get spreadsheet ![](images/applications-spreadsheet.png) that can be further used. Usually, you would do several exports (as people tend to start registering when the course is announced) and merge those together.
-
-There's also a possibility you would be creating a course that we never had before and thus you might need to modify [application monitor](https://github.com/kottans/application-monitor) to support corresponding columns / filtering / export.
+We are using [google forms](https://www.google.com/forms/about/) for gathering applications. See sample: ![](https://github.com/Kottans/kottans-course-bootstrap/raw/master/form.jpg)
+Might be a good idea to have some sort of [FAQ](https://gist.github.com/AMashoshyna/2dc9d9d8ddcf206fa43cac9d4a57d3fd) going along.
+We have a legacy application tool ([application monitor](https://github.com/Kottans/kottans-course-bootstrap/blob/661fc609e75eefa4112c784954883baf30ada628/README.md#getting-registrations)) that might still store applications that might be useful for your course.
 
 > _Note: we previously also had 'beta'-course, that wasn't available for a wide audience but was more of 'by kottans for kottans'. In that case, there's a different flow for getting registrations/test task/interviews._
 
