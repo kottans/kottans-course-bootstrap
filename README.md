@@ -341,6 +341,9 @@ All these would be free (or have free plans), but they might have downside to th
 There are countless possible ways of keeping track of the group (active/inactive students, maybe, quantity of done/undone hometasks, etc). Two easiest would be google doc or github repo.
 Using github repo as easy as creating a repo and listing students in repo, [like this](https://github.com/Kottans/JS2016-3-). You can share other useful information along, like [calendar](#calendar), etc. In that case, 'count of homeworks' would be a link to github issues tab of corresponding repo (with possibly some additional filters applied).
 If you choose google spreadsheet to do this, you will be able to use google sctipt to query quantity of open issues for corresponding repo. More info can be found [down below](#monitoring).
+Another way of keeping track on progress is to create a [github project dashboard](https://help.github.com/articles/about-project-boards/) bound to course repo and a secret [github team](https://help.github.com/articles/creating-a-team/) with participants as members. Then give the *team* read access to course repo so that you could **assign issues** to them. The project gives a trello-like board of issues that shows the current progress for any user.
+**Example may be found [here](https://github.com/khropics/sell-dashboard-to-kottans/projects/1)**. 
+It also makes sense to make the github team a child group or limited to a certain rights.
 
 #### Calendar
 
